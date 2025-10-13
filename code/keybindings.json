@@ -305,5 +305,20 @@
         "key": "cmd+up",
         "command": "-selectPrevSuggestion",
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+    },
+    {
+        "key": "shift+cmd+i",
+        "command": "aws.amazonq.inline.invokeChat",
+        "when": "aws.codewhisperer.connected && editorTextFocus"
+    },
+    {
+        "key": "cmd+i",
+        "command": "-aws.amazonq.inline.invokeChat",
+        "when": "aws.codewhisperer.connected && editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+i",
+        "command": "-workbench.action.chat.openAgent",
+        "when": "config.chat.agent.enabled && !chatSetupDisabled && !chatSetupHidden"
     }
 ]
