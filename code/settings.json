@@ -6,6 +6,7 @@
     "amazonQChatDisclaimer": true,
     "amazonQSessionConfigurationMessage": true
   },
+  "chat.disableAIFeatures": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.accessibilitySupport": "off",
   "editor.fontFamily": "MesloLGS NF, MesloLGS Nerd Font, Menlo, Monaco, 'Courier New', monospace",
@@ -73,8 +74,6 @@
       "path": "zsh"
     }
   },
-  "viceroy.config.internal.lastUpdateTime": "2025-10-13T19:00:30.245Z",
-  "viceroy.config.lastVersion": "0.53.202343",
   "viceroy.config.resolveSymlinks": "resolve",
   "viceroy.config.setup.amazonQ": false,
   "viceroy.doc.welcome.showAtStartup": false,
@@ -87,11 +86,21 @@
     "kaze.vscode-plugin-contribution-model": "stable",
     "marklel.vscode-brazil": "stable",
     "mchpatr.datapath-language-server": "stable",
-    "mchpatr.datapath-vscode": "stable"
+    "mchpatr.datapath-vscode": "stable",
+    "amzn.code-parallax-studio": "stable"
   },
   "workbench.colorTheme": "One Dark Pro",
   "workbench.commandPalette.experimental.enableNaturalLanguageSearch": false,
   "workbench.iconTheme": "vscode-icons",
   "workbench.settings.enableNaturalLanguageSearch": false,
-  "chat.disableAIFeatures": true
+  "kiroAgent.configureMCP": "Enabled",
+  "kiroAgent.trustedCommands": [
+    "grep *",
+    "cat *",
+    "ls *"
+  ],
+  "kiroAgent.modelSelection": "claude-opus-4.5",
+  "kiroAgent.agentAutonomy": "Supervised",
+  "viceroy.config.lastVersion": "0.53.202690",
+  "viceroy.config.internal.lastUpdateTime": "2026-02-05T21:04:12.011Z"
 }
